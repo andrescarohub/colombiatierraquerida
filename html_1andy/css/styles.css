@@ -5,4 +5,17 @@
     font-weight: 100;
     font-style: normal;
   }
-  
+  button {
+    padding: 10px 20px;
+    background-color: #f04e23; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 1rem; /* Tamaño de fuente */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+button:hover {
+    background-color: #d0431f; /* Color de fondo al pasar el ratón */
+}

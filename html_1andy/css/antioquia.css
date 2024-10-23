@@ -1,0 +1,75 @@
+  /* Estilos generales */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: url('../images/antioquia/antioquia1.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  section {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    border-radius: 10px;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #f04e23; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    font-size: 1rem; /* Tamaño de fuente */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+button:hover {
+    background-color: #d0431f; /* Color de fondo al pasar el ratón */
+}
